@@ -1,0 +1,363 @@
+/* // X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap */
+@media (min-width: 320px) and (max-width: 575px){
+    /* Navigation part start */
+    .nav-link.active{
+        margin-top: 10px;
+    }
+    /* Navigation part end */
+
+    /* Banner part start */
+    #banner {
+        padding: 135px 0;
+    }
+    .banner_content{
+        text-align: left;
+    }
+    .banner_content h1 {
+        font-size: 45px;
+        letter-spacing: 5px;
+    }
+    .banner_content a {
+        padding: 5px 28px;
+        font-size: 14px;
+        margin-top: 7px;
+    }
+    /* Banner part end */
+    
+    /* About us part start */
+    #about_us {
+        padding: 40px 0;
+    }
+    .abt_content p {
+        line-height: 25px;
+        text-align: left;
+    }
+    /* About us part end */
+
+    /* Features part start */
+    #features {
+        padding: 0px 0;
+    }
+    #features .head h2 {
+        margin-bottom: 18px;
+    }
+    .box_1 {
+        padding: 18px 30px;
+    }
+    .hide{
+        display: none;
+    }
+    /* Features part end */
+
+    /* Blog part start */
+    #blog {
+        padding: 40px 0 0 0;
+    }
+    #blog .head h2 {
+        margin-bottom: 20px;
+    }
+    .blog_text p {
+        margin-bottom: -3px;
+    }
+    h6 {
+        margin-bottom: 0px;
+    }
+    .accordion-item:last-of-type .accordion-button.collapsed{
+        padding-left: 0;
+    }
+    .accordion-button::after{
+        margin-left: 17px;
+    }
+    /* Blog part end */
+    
+    /* Proposal part start */
+    #proposal {
+        margin-top: 20px;
+    }
+    .proposal_content a {
+        padding: 8px 23px;
+        font-size: 15px;
+        margin-top: 12px;
+        margin-left: 0px;
+    }
+    /* Proposal part end */
+
+    /* Footer part start */
+    .foot_icon{
+        display: none;
+    }
+    .f_content2{
+        border-left: none;
+    }
+    .copyright p{
+        border-top: 1px solid #757576;
+        padding-top: 16px;
+        margin-top: 25px;
+    }
+    /* Footer part end */
+}
+
+
+
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px){
+    /* Navigation part start */
+    .nav-link.active{
+        margin-top: 10px;
+    }
+    /* Navigation part end */
+
+    /* Banner part start */
+    #banner {
+        padding: 150px 0;
+        text-align: left;
+    }
+    .banner_content h1 {
+        font-size: 62px;
+    }
+    /* Banner part end */
+
+    /* About us part start */
+    #about_us {
+        padding: 50px 0;
+    }
+    /* About us part end */
+
+    /* Features part start */
+    #features {
+        padding: 0;
+    }
+    #features .head h2 {
+        margin-bottom: 10px;
+    }
+    .icon p {
+        height: 48px;
+        width: 48px;
+        font-size: 23px;
+    }
+    /* Features part end */
+
+    /* Work part start */
+    #work {
+        padding: 30px 0 50px 0;
+    }
+    #work .head h2{
+        margin-bottom: 40px;
+    }
+    /* Work part end */
+
+    /* Blog part start */
+    #blog {
+        padding: 40px 0 15px 0;
+    }
+    #blog .head h2 {
+        margin-bottom: 25px;
+    }
+    /* Blog part end */
+
+    /* Footer part start */
+    .f_content2{
+        border-left: none;
+    }
+    .copyright p{
+        border-top: 1px solid #757576;
+        padding-top: 16px;
+        margin-top: 25px;
+    }
+    /* Footer part end */
+}
+
+
+
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px){
+    /* Navigation part start */
+    .nav-link.active{
+        margin-top: 10px;
+    }
+    /* Navigation part end */
+
+    /* Banner part start */
+    #banner {
+        padding: 150px 0;
+    }
+    .banner_content h1 {
+        font-size: 65px;
+    }
+    /* Banner part end */
+
+    /* About us part start */
+    #about_us {
+        padding: 50px 0;
+    }
+    /* About us part end */
+
+    /* Features part start */
+    #features {
+        padding: 0;
+    }
+    #features .head h2 {
+        margin-bottom: 10px;
+    }
+    .icon p {
+        height: 51px;
+        width: 51px;
+        font-size: 24px;
+    }
+    /* Features part end */
+
+    /* Work part start */
+    #work {
+        padding: 30px 0 50px 0;
+    }
+    #work .head h2{
+        margin-bottom: 50px;
+    }
+    /* Work part end */
+
+    /* Blog part start */
+    #blog {
+        padding: 50px 0 15px 0;
+    }
+    /* Blog part end */
+
+    /* Footer part start */
+    .f_content2{
+        border-left: none;
+    }
+    .foot_icon p:first-child{
+        margin-bottom: 42px;
+    }
+    .copyright p{
+        border-top: 1px solid #757576;
+        padding-top: 16px;
+        margin-top: 30px;
+    }
+    /* Footer part end*/
+}
+
+
+
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px){
+    /* Banner part start */
+    /* Banner part end */
+
+    /* About us part start */
+    #about_us {
+        padding: 55px 0;
+    }
+    .abt_content {
+        padding: 0;
+    }
+    .abt_content p {
+        line-height: 25px;
+    }
+    /* About us part end */
+
+    /* Features part start */
+    #features {
+        padding: 25px 0;
+    }
+    .icon p {
+        height: 51px;
+        width: 51px;
+        font-size: 24px;
+    }
+    /* Features part end */
+    
+    /* Work part start */
+    #work .head h2 {
+        margin-bottom: 50px;
+    }
+    /* Work part end */
+
+    /* Blog part start */
+    #blog {
+        padding: 55px 0;
+    }
+    /* Blog part end */
+
+    /* Proposal part start */
+    #proposal {
+        margin-top: 0px;
+    }
+    /* Proposal part end */
+
+    /* Footer part start */
+    .f_content2{
+        border-left: none;
+    }
+    .copyright p{
+        border-top: 1px solid #757576;
+        padding-top: 16px;
+        margin-top: 40px;
+    }
+    /* Footer part end */
+}
+
+
+
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399px){
+    /* About us part start */
+    #about_us {
+        padding: 60px 0;
+    }
+    /* About us part end */
+
+    /* Features part start */
+    #features {
+        padding: 25px 0;
+    }
+    /* Features part end */
+
+    /* Footer part start */
+    .f_content2{
+        border-left: none;
+    }
+    .copyright p{
+        border-top: 1px solid #757576;
+        padding-top: 16px;
+        margin-top: 40px;
+    }
+    /* Footer part end */
+}
+
+
+
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+/* @media (min-width: 1400px) {
+    /* Navigation part start */
+    /* Navigation part end */
+
+    /* Banner part start */
+    /* Banner part end */
+
+    /* Features part start */
+    /* Features part end */
+
+    /* About us part start */
+    /* About us part end */
+
+    /* Work part start */
+    /* Work part end */
+
+    /* Products part start */
+    /* Products part end */
+
+    /* Portfolio part start */
+    /* Portfolio part end */
+
+    /* Testimonial part start */
+    /* Testimonial part end */
+
+    /* Footer part start */
+    /* Footer part end
+} */
